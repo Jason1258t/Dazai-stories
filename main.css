@@ -1,0 +1,144 @@
+body {
+    background: url("images/background.jpg") fixed no-repeat;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.title {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.ava {
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ava img{
+    height: 100%;
+    width: auto;
+}
+
+.content {
+    margin-top: 50px;
+    display: flex;
+}
+
+.nav {
+    width: 15%;
+    height: 800px;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+}
+
+.container {
+    width: 85%;
+}
+
+.story-list {
+    width: 90%;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.5);
+    min-height: 800px;
+    padding-top: 50px;
+}
+
+
+.nav-name {
+    font-size: 32px;
+    font-family: sans-serif;
+}
+
+.menu {
+    font-size: 24px;
+    font-family: sans-serif;;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu li{
+    margin-left: 0;
+    transition: all 0.2s ease;
+}
+
+.menu li:hover {
+    margin-left: 10px;
+    background-color: rgba(223, 222, 186, 0.5);
+}
+
+.chapter-title {
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-left: 50px;
+    color: white;
+}
+
+.stories {
+    font-size: 36px;
+    font-family: sans-serif;
+    color: white;
+    margin-left: 100px;
+    margin-top: 50px;
+    
+}
+
+.stories li a{
+    text-decoration: none;
+    color: white;
+}
+
+.stories li{
+    margin-left: 0;
+    transition: all 0.5s ease;
+    margin-bottom: 10px;
+}
+
+.stories li:hover {
+    background-color: rgba(104, 104, 104, 0.5);
+    margin-left: 10px;
+}
+
+.story {
+    width: 90%;
+    margin: auto;
+    background: rgb(255, 255, 255);
+    min-height: 800px;
+    padding-top: 50px; 
+    border-radius: 5px;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+}
+
+.story-name {
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-left: 50px;
+    color: black;
+}
+
+p {
+    color: black;
+    font-size: 26px;
+    font-family: sans-serif;
+    text-indent: 10px;
+}
