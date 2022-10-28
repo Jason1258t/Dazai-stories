@@ -20,6 +20,11 @@ header {
     font-size: 40px;
 }
 
+.title a{
+    text-decoration: none;
+    color: black;
+}
+
 .ava {
     width: 90px;
     height: 90px;
@@ -144,4 +149,37 @@ p {
     font-size: 26px;
     font-family: sans-serif;
     text-indent: 10px;
+}
+
+@media (max-width: 600px) {
+    .nav {
+        display: none;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .ava {
+        width: 55px;
+        height: 55px;
+    }
+
+    .story-name {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .content {
+        display: block;
+        margin: 100px auto;
+    }
+
+    .container {
+        margin: auto;
+        width: 98%;   
+    }
 }
